@@ -1,0 +1,14 @@
+1) touch file1 file2a && chmod u+x file1 file2a
+   ls -l
+2) sort -t ',' -k1,1n pig_weights.csv -o pig1 
+   sort -t ',' -k2,2n pig_weights.csv -o pig2
+   sort -t ',' -k3,3n pig_weights.csv -o pig3
+   sort -t ',' -k4,4n pig_weights.csv -o pig4
+   cat pig1
+   cat pig2
+   cat pig3
+   cat pig4
+
+3)sort -t ',' -k2,2nr SOCR-HeightWeight_data.csv | head -n 3
+  There are two tallest person of having height 75 
+   between them one tallest person having the most weigh
